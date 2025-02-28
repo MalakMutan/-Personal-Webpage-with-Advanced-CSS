@@ -1,17 +1,23 @@
-# Personal Website
-🚀 A simple personal website built with HTML and CSS.
-
-🌟 Features:
-🏷️ Header: Displays my name and a short title.
-ℹ️ About Me Section: Includes a short bio and an image.
-🎨 Hobbies List: Showcases my interests with icons.
-📊 Skills Table: Lists my skills with proficiency levels.
-🔗 Favorite Links: Links to my favorite websites with hover effects.
-🎥 Embedded YouTube Video: Displays my favorite video.
-🎨 Custom Styling: Responsive design with hover effects.
-📂 Technologies Used:
-HTML5 🏗️
-CSS3 🎨
-GitHub Pages 🚀 (for deployment)
-🌐 Live Demo:
-👉 Your Website Link
+<div class="container">
+  <div class="section">
+    <h2>🌟 Features:</h2>
+    <ul>
+      <li>🏷️ Header: Displays my name and a short title.</li>
+      <li>ℹ️ About Me Section: Includes a short bio and an image.</li>
+      <li>🎨 Hobbies List: Showcases my interests with icons.</li>
+      <li>📊 Skills Table: Lists my skills with proficiency levels.</li>
+      <li>🔗 Favorite Links: Links to my favorite websites with hover effects.</li>
+      <li>🎥 Embedded YouTube Video: Displays my favorite video.</li>
+      <li>🎨 Custom Styling: Responsive design with hover effects.</li>
+    </ul>
+  </div>
+  
+  <div class="section">
+    <h2>📂 Technologies Used:</h2>
+    <ul>
+      <li>HTML5 🏗️</li>
+      <li>CSS3 🎨</li>
+      <li>GitHub Pages 🚀</li>
+    </ul>
+  </div>
+</div>
