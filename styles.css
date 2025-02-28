@@ -1,0 +1,114 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-size: 16px;
+}
+
+header {
+    background: #906389;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 4px solid #f4a261;
+}
+
+section {
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    background: rgba(237, 236, 236, 0.588);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(71, 2, 68, 0.1);
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 20%;
+    width: 300px;
+    height: 200px;
+}
+
+/* Hobbies List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/* Skills Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #390234;
+}
+
+th {
+    background: #8a117e;
+    color: white;
+}
+
+tr {
+    background-color: #af1691;
+}
+
+tr:hover {
+    background-color: #94307d;
+    color: rgb(225, 200, 200);
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: #b71293;
+    font-weight: bold;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #df83d7;
+    transform: scale(1.1); /* تكبير الرابط عند تمرير الماوس */
+
+}
+
+/* Button Styling */
+button:hover {
+    background-color: #f461e8;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
